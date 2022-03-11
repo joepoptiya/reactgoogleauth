@@ -10,8 +10,6 @@ import LogoutButton from "./components/logout";
 // Google API
 import { gapi } from "gapi-script";
 
-//const dotenv = require("dotenv").config();
-
 function App() {
   useEffect(() => {
     function start() {

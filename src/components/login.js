@@ -1,12 +1,11 @@
 import React from "react";
 import { GoogleLogin } from "react-google-login";
 
-const clientId =
-  "436001671182-fihooedj7hn8ehv484p3aluf5ei7iioq.apps.googleusercontent.com";
-
 export default function login() {
   const onSuccess = (res) => {
     console.log("LOGIN SUCCESS! Current user: ", res);
+    console.log("Access token: ", res.accessToken);
+    localStorage.setItem("accessToken", res.accessToken);
   };
 
   const onFailure = (res) => {
