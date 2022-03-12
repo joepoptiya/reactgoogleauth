@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=HtJKUQXmtok&t=9s
 
 # GIT link
 
-https://github.com/joepoptiya/reactgoogleauth/tree/init/src
+https://github.com/joepoptiya/reactgoogleauth
 
 # Getting Started with Create React App
 
